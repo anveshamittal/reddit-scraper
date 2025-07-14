@@ -27,7 +27,7 @@ AZURE_OPENAI_ENDPOINT=https://your-instance-name.openai.azure.com
 AZURE_OPENAI_API_KEY=your_api_key
 AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o-mini-custom
 
-### 5.Edit extract_data.py in db->src to target a Reddit username:
+### 5.Edit extract_data.py in src->db to target a Reddit username:
 username = enter your username there
 
 ### 6. Run python main.py

@@ -1,6 +1,7 @@
 import praw
 import os
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -11,7 +12,9 @@ def fetch_data():
         user_agent=os.getenv("USER_AGENT")
     )
 
-    username = "WRITE THE USERNAME HERE WITH /u"
+    user_input = "ENTER THE USERNAME URL OR THE USERNAME WITHOUT /u"
+    match = re.search(r"(?:reddit\.com\/u(?:ser)?\/)([\w-]+)", user_input)
+    username = match.group(1) if match else user_input
     user = reddit.redditor(username)
 
     comments = []
