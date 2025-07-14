@@ -1,0 +1,10 @@
+langchain>=0.2.0
+openai
+praw
+python-dotenv
+faiss-cpu
+langchain-openai>=0.1.0
+langchain-community>=0.0.30
+langchain-core>=0.1.50
+langchain-huggingface>=0.0.4
+sentence-transformers
