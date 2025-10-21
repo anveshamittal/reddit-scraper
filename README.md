@@ -31,9 +31,3 @@ AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o-mini-custom
 username = enter your username there
 
 ### 6. Run python main.py
-
-
-"""
-PS: From the Developer
-I’ve implemented this project based on my current understanding of the assignment. I'm a fresher and still learning, so if there's anything I misunderstood or could improve, I’d really appreciate your feedback. Looking forward to growing through this internship opportunity!
-"""
